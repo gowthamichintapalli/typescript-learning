@@ -1,0 +1,48 @@
+#### topics to be covered
+
+Type annotations 
+Interfaces 
+Type aliases 
+Union types 
+Optional properties 
+Enums
+Generics 
+Function types
+Type narrowing 
+Type assertions 
+Example 
+interface User	{
+     id:number; 
+     name:string; 
+     email:string; 
+     role:UserRole;
+      } 
+      enum UserRole	{ 
+        ADMIN="ADMIN", 
+        USER="USER" 
+        } 
+        
+        function getUserName(user:	User):	string	{ 
+            return	user.name; 
+            } 
+            
+—	TypeScript	Advanced Topics 
+Classes 
+Access modifiers 
+public 
+private 
+protected 
+readonly 
+Constructors 
+Inheritance 
+Abstract classes 
+Interfaces 
+Generics 
+Decorators 
+Dependency	Injection	concept 
+
+Exercise 
+Create: User 
+            ├──	AdminUser 
+            └──	NormalUser 
+Implement	common	functionality	using	interfaces/classes.
