@@ -6,11 +6,24 @@ String	  let name  : string = "John";
 Boolean	  let active: boolean = true;
 Array	    let nums  : number[] = [1, 2, 3];
 Tuple	    let user  : [string, number] = ["John", 25];
-Object	  let p     : {name: string; age: number}
+Object	  let person: {name: string; age: number}
 Any	      let data  : any = 10;
 Unknown	  let data  : unknown = 10;
 Function	function  add(a: number): number
 No return	function  show(): void
+
+Normal function
+────────────────────────
+function multiply(a, b) {
+    return a * b;
+}
+
+
+Arrow function
+────────────────────────
+const multiply = (a, b) => {
+    return a * b;
+}
 
 Example:
 
