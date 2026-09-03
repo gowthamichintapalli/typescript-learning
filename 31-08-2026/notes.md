@@ -1,4 +1,5 @@
 ### Type Annotations
+type annotation tells TypeScript what type of value a variable is allowed to contain.
 
 Type	Example
 Number	  let age   : number = 25;
@@ -13,6 +14,9 @@ Function	function  add(a: number): number
 No return	function  show(): void
 
 Normal function
+
+function functionName(parameter: parameterType): returnType {
+}
 ────────────────────────
 function multiply(a, b) {
     return a * b;
@@ -30,6 +34,25 @@ Example:
 const name: string = "Gowthami";
 const age: number = 23;
 const isStudent: boolean = true;
+
+
+
+### type inference.
+--You don't always need to explicitly write types.
+
+TypeScript can often figure them out.
+
+let name = "Gowthami";
+let age = 23;
+let isStudent = true;
+
+TypeScript automatically understands:
+
+name → string
+age → number
+isStudent → boolean
+
+This is called type inference.
 
 ### JSON
 

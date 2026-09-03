@@ -112,7 +112,7 @@ console.log("EMPLOYEE ID:," , employee_id);
 
 type Vehicle ={
     name:string,
-    model:string,
+    model:string|number,
     year:number
 }
 
@@ -125,7 +125,7 @@ console.log("Car Details:",car1);
 
 let car2:Vehicle={
     name:"Honda",
-    model:"Civic",
+    model:"2023",
     year:2023
 }
 console.log("Car Details:",car2);

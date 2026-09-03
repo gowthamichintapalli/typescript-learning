@@ -116,13 +116,9 @@ console.log(employee);
 
 
 enum UserRole {
-ADMIN = "ADMIN",
-USER = "USER"
+    ADMIN = "ADMIN",
+    USER = "USER"
 }
-// Create a User interface containing: id, name, email, role, and an optional phone.
-// Create the function:
-// function getUserDetails(user: User): string
-// The function should return the user's details.
 
 interface User{
     id:number,

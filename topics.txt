@@ -6,10 +6,10 @@ Type aliases
 Union types 
 Optional properties 
 Enums
-Generics 
 Function types
 Type narrowing 
 Type assertions 
+
 Example 
 interface User	{
      id:number; 
@@ -17,7 +17,7 @@ interface User	{
      email:string; 
      role:UserRole;
       } 
-      enum UserRole	{ 
+        enum UserRole	{ 
         ADMIN="ADMIN", 
         USER="USER" 
         } 
@@ -34,10 +34,7 @@ private
 protected 
 readonly 
 Constructors 
-Inheritance 
-Abstract classes 
-Interfaces 
-Generics 
+Inheritance
 Decorators 
 Dependency	Injection	concept 
 
