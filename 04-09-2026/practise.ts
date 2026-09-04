@@ -134,6 +134,8 @@ function displayEmployee() {
     //console.log(emp.salary); // cannot access outside the class
 }
 
+displayEmployee();
+
 class Employee4 {
     name: string = "Gowthami";
     employee_id: number = 101;
@@ -143,13 +145,15 @@ let emp2 = new Employee();
 
 emp2.name = "Sneha";       
 //emp2.employee_id = 102;     //it will throws error
+console.log(emp2.name);
 
-class Employee5 {
 
-    readonly employeeId: number;
+// class Employee5 {
 
-    constructor(id: number) {
-        this.employeeId = id;
-    }
-}
-let emp4 = new Employee5(101);
+//     readonly employeeId: number;
+
+//     constructor(id: number) {
+//         this.employeeId = id;
+//     }
+// }
+// let emp4 = new Employee5(101);
